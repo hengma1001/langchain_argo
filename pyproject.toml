@@ -3,13 +3,13 @@ requires = ["setuptools>=64.0", "setuptools_scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "foobar"
+name = "langchain_argo"
 version = "0.1.0"
 authors = [
-    {name = "foobar author"},
-    {email = "foobar@foobar.com"},
+    {name = "Heng Ma"},
+    {email = "heng.ma@anl.gov"},
 ]
-description = "Foobar example package."
+description = "A langchain interface to interact with ANL Argo service."
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
